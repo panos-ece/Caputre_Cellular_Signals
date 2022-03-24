@@ -1,0 +1,20 @@
+############## PART 1 ############## 
+
+In order to run the part 1 of the project we do:
+1) go to google maps in order to choose your scanning location.
+2) While in google maps, right click on the exact scanning location.
+3) On the pop-up window click the coordinates label.
+4) Now the coordinates are copied, go to terminal.
+5) Execute the following(using the arguments you just copied):
+	e.g. /root/wrapper_part1.sh 30.3 35.4
+
+!!!!! Note !!!!!
+In order to execute correctly the program you must remove the comma 
+while paste the coordinates as arguments in the above script.
+	e.g. /root/wrapper_part1.sh 30.3, 35.4 ---> e.g. /root/wrapper_part1.sh 30.3 35.4
+
+
+############## PART 2 ##############
+
+The only difference for running the part2 of the project is the change of wrapper's name.
+	e.g. /root/wrapper_part1.sh ----> /root/wrapper_part2.sh 
